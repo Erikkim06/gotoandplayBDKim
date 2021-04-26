@@ -1,0 +1,32 @@
+body{
+    background-color: #353635;
+}
+#canvasLogo{
+
+    text-align: center;
+    background-color: transparent;
+    position: relative;
+    bottom: 500px;
+    z-index: 0;
+}
+#mountain {
+    background: url(https://jackrugile.com/lab/fireworks-v2/images/mountains2.png) repeat-x 30% 0; /*Tausta mäed on sellelt lingilt saadud.*/
+    bottom: 0;
+    height: 250px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+#fireworks{
+    height: 100%;
+    width: 100%;
+}
+#canvas{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
